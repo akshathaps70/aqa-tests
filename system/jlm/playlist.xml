@@ -24,14 +24,8 @@
 	</test>
 	<test>
 		<testCaseName>TestJlmLocal</testCaseName>
-		<disables>
-			<disable>
-				<comment>https://github.com/adoptium/aqa-systemtest/issues/274</comment>
-				<impl>hotspot</impl>
-				<platform>arm_linux|aarch64_linux</platform>
-			</disable>
-		</disables>
 		<variations>
+		    <variation>Mode121</variation>
 			<variation>Mode150</variation>
 			<variation>Mode650</variation>
 			<variation>Mode1000</variation>
